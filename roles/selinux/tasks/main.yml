@@ -1,0 +1,8 @@
+ - name: Check selinux status
+   command: getenforce
+   register: sestatus
+   
+ - name: Check if libselinux-python is installed
+   yum: list=libselinux-python
+   register: pystatus
+   

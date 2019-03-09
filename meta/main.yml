@@ -1,0 +1,16 @@
+galaxy_info:
+  author: _CuongNP2
+  description: Configure NIC Bonding HA failover
+
+  min_ansible_version: 1.2
+  
+  license: MIT
+
+  platforms:
+   - name: EL
+     versions:
+     - 6
+
+  galaxy_tags: 
+   - System
+   - Network

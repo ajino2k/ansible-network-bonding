@@ -1,0 +1,8 @@
+# Playbook to configure a System with Bonding
+---
+- hosts: servers
+  remote_user: root
+
+  roles:
+   - selinux
+   - bonding
