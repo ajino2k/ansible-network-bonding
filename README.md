@@ -28,7 +28,3 @@ License
 
 MIT
 
-Author Information
-------------------
-
-Diptajeet Khan
